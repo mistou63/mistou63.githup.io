@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&family=Vidaloka&display=swap');
+
+.btn-white{
+  display: inline-block;
+  color: noir;
+  background-color: #ffcb16;
+  text-decoration: none;
+  padding: 6px 20px;
+  font-family:"bebas";
+}
+
+.container{
+   padding: 2% 5%; 
+}
+
+body{
+  margin: 0px;
+}
+
+.hero{
+  height: 50vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://scontent.fcdg1-1.fna.fbcdn.net/v/t1.0-9/140861147_3586464584794892_8080068790608586311_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=zJhgzUk9OI4AX-cVY0n&_nc_ht=scontent.fcdg1-1.fna&oh=2ff2e0daa3b70e7a80e6105847ba477b&oe=608796F6");
+  background-size: cover;}
+
+
+h1{font-family: Bad Script;}
+h2{font-family: Vidaloka;
+  text-align:center;
+  font-size: 30px ;}
+p{font-family: Open Sans;}
+
+.exemple1 {
+  color: white;
+  text-shadow: 2px 2px 0px #ae4e6f;
+}
+
+
+.exemple2 h1{
+  background-color: white;  
+}
+
+#wave{
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#flex3{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+}
+
+
+
+.underline_title h2:after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    background: #e5007d;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 75px;
+    transform: translateX(-50%);
+    transition: all ease .4s;
+}
+
+div {
+  margin: 20px;
+  padding: 20px;
+  background color: white;
+  border-radius: 10px;
+ box-shadow: 0 7px 10px rgba(0,0,0,.1);
+  background-color : #f3f4ed;
+  padding : 30px
+  
+}
+
+#flex4{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+}
+
+.fb{
+  border-color: black;
+  text-align: center; 
+  display: flex;
+  justify content : center;
+  
+}
+
+.hero4{text-align: center;}
