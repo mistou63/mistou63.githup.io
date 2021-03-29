@@ -15,8 +15,48 @@
 <body>
 
 
+<div class="text-center">
+   <h1> Hello, I'm Marie 👋 </h1>
+   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFxgfvi6le37A/profile-displayphoto-shrink_400_400/0/1584624728031?e=1619654400&v=beta&t=x1EZYAaTvuSNyNRAduIICNvAnaxr3xVGm_GcKJqpf00" width="200px" />
+   <p> <i> Je m'appelle Marie, j'ai 21ans. Je viens de Clermont-  Ferrand, j'ai déménagé à Lyon pour mes études depuis Septembre 2020. </i> </p>
+    <p class="btn-white"> Me contacter </p>
+</div>
 
-<!-- COPIER/COLLER CODE HTML ICI -->
+
+<div>
+  <h3> Objectif 🎯</h3>
+  <p> Je souhaiterais continuer mes études dans le domaine de la    <b>communication</b>, mais j'aimerais me spécialiser dans le  domaine de la <b>mode et du luxe</b>. J'ai choisi le parcours web car je suis en alternance dans une agence de communication, où je suis <b>community manager</b>. J'aimerais donc pouvoir améliorer mes compétences dans le domaine du digital.
+</div>
+
+
+<div>
+  <h3> Parcours </h3>
+  <ul>
+    <li> BAC ST2S (santé & social) - 2018 </li>
+    <li> BTS Communication - 2020 </li>
+    <li> Bachelor Communication - 2021 </li>
+  </ul>
+</div>
+
+
+<div>
+  <h3> A propos de moi </h3>
+  <p> Je pratique le <b> basket </b> depuis 5ans. Mes autres   passions sont <b> les voyages, la mode et la cuisine. </b> </p>
+</div>
+
+
+<div>
+  <h3> Musique du moment </h3>
+  <iframe width="560" height="315"                  src="https://www.youtube.com/embed/mUTsvbridvM" frameborder="0"     allow="accelerometer; autoplay; clipboard-write; encrypted-       media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<div>
+  <h3> Mes reseaux </h3>
+  <a href="https://www.linkedin.com/in/mariecastro-communication"   target="_blank"> Linkedin </a>
+</div>
+
+
 
 </body>
 </html>
