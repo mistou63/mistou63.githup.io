@@ -1,62 +1,99 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- COSTUM CSS--> <link rel="stylesheet" href="style.css">
-<!-- CSS de TAILWIND --> <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<!-- CSS de FONTAWESOME --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&family=Vidaloka&display=swap');
+
+.btn-white{
+  display: inline-block;
+  color: noir;
+  background-color: #ffcb16;
+  text-decoration: none;
+  padding: 6px 20px;
+  font-family:"bebas";
+}
+
+.container{
+   padding: 2% 5%; 
+}
+
+body{
+  margin: 0px;
+}
+
+.hero{
+  height: 50vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://scontent.fcdg1-1.fna.fbcdn.net/v/t1.0-9/140861147_3586464584794892_8080068790608586311_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=zJhgzUk9OI4AX-cVY0n&_nc_ht=scontent.fcdg1-1.fna&oh=2ff2e0daa3b70e7a80e6105847ba477b&oe=608796F6");
+  background-size: cover;}
+
+
+h1{font-family: Bad Script;}
+h2{font-family: Vidaloka;
+  text-align:center;
+  font-size: 30px ;}
+p{font-family: Open Sans;}
+
+.exemple1 {
+  color: white;
+  text-shadow: 2px 2px 0px #ae4e6f;
+}
+
+
+.exemple2 h1{
+  background-color: white;  
+}
+
+#wave{
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#flex3{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+}
 
 
 
-<title>Marie</title>
-</head>
-<body>
+.underline_title h2:after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    background: #e5007d;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 75px;
+    transform: translateX(-50%);
+    transition: all ease .4s;
+}
 
+div {
+  margin: 20px;
+  padding: 20px;
+  background color: white;
+  border-radius: 10px;
+ box-shadow: 0 7px 10px rgba(0,0,0,.1);
+  background-color : #f3f4ed;
+  padding : 30px
+  
+}
 
-<div class="text-center">
-   <h1> Hello, I'm Marie 👋 </h1>
-   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFxgfvi6le37A/profile-displayphoto-shrink_400_400/0/1584624728031?e=1619654400&v=beta&t=x1EZYAaTvuSNyNRAduIICNvAnaxr3xVGm_GcKJqpf00" width="200px" />
-   <p> <i> Je m'appelle Marie, j'ai 21ans. Je viens de Clermont-  Ferrand, j'ai déménagé à Lyon pour mes études depuis Septembre 2020. </i> </p>
-    <p class="btn-white"> Me contacter </p>
-</div>
+#flex4{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+}
 
+.fb{
+  border-color: black;
+  text-align: center; 
+  display: flex;
+  justify content : center;
+  
+}
 
-<div>
-  <h3> Objectif 🎯</h3>
-  <p> Je souhaiterais continuer mes études dans le domaine de la    <b>communication</b>, mais j'aimerais me spécialiser dans le  domaine de la <b>mode et du luxe</b>. J'ai choisi le parcours web car je suis en alternance dans une agence de communication, où je suis <b>community manager</b>. J'aimerais donc pouvoir améliorer mes compétences dans le domaine du digital.
-</div>
-
-
-<div>
-  <h3> Parcours </h3>
-  <ul>
-    <li> BAC ST2S (santé & social) - 2018 </li>
-    <li> BTS Communication - 2020 </li>
-    <li> Bachelor Communication - 2021 </li>
-  </ul>
-</div>
-
-
-<div>
-  <h3> A propos de moi </h3>
-  <p> Je pratique le <b> basket </b> depuis 5ans. Mes autres   passions sont <b> les voyages, la mode et la cuisine. </b> </p>
-</div>
-
-
-<div>
-  <h3> Musique du moment </h3>
-  <iframe width="560" height="315"                  src="https://www.youtube.com/embed/mUTsvbridvM" frameborder="0"     allow="accelerometer; autoplay; clipboard-write; encrypted-       media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-
-<div>
-  <h3> Mes reseaux </h3>
-  <a href="https://www.linkedin.com/in/mariecastro-communication"   target="_blank"> Linkedin </a>
-</div>
-
-
-
-</body>
-</html>
+.hero4{text-align: center;}
