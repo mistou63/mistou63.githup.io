@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&family=Vidaloka&display=swap');
+
+
+.container{
+   padding: 2% 5%; 
+}
+
+body{
+  margin: 0px;
+}
+
+.hero{
+  height: 50vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/6858670/pexels-photo-6858670.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+
+}
+h1{font-family: Bad Script;}
+h2{font-family: Vidaloka;}
+p{font-family: Open Sans;}
+
+.exemple1 {
+  color: white;
+  text-shadow: 2px 2px 0px #ae4e6f;
+}
+
+
+.exemple2 h1{
+  background-color: white;  
+}
+
+#wave{
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
+}
